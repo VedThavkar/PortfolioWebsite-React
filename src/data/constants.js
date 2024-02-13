@@ -12,9 +12,9 @@ export const Bio = {
     resume:
       "https://drive.google.com/file/d/1oHUlKa3CLRxT3y__RksSo2U8B67eYIXF/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/yogeshdahatonde/",
-    twitter: "",
+    twitter: "https://www.linkedin.com/in/yogeshdahatonde/",
     insta: "https://www.instagram.com/d_yogesh047/",
-    facebook: "",
+    facebook: "https://www.linkedin.com/in/yogeshdahatonde/",
   };
   
   export const skills = [
