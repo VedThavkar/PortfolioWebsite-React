@@ -389,51 +389,48 @@ export const Bio = {
   ];
   
   export const projects = [
-    // {
-    //   id: 11,
-    //   title: "DecisionHub",
-    //   date: "Jan 2024 - Dec 2023",
-    //   description:
-    //     "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
-    //   image:
-    //     "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
-    //   tags: [
-    //     "React Js",
-    //     "PostgressSQL",
-    //     "Node Js",
-    //     "Express Js",
-    //     "Redux",
-    //     "React Flow",
-    //   ],
-    //   category: "web app",
-    //   github: "https://github.com/rishavchanda/DecisionHub",
-    //   webapp: "https://decisionhub.netlify.app/",
-    // },
-    // {
-    //   id: 9,
-    //   title: "Trackify",
-    //   date: "Jun 2023 - Jul 2023",
-    //   description:
-    //     "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    //   image:
-    //     "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    //   tags: [
-    //     "Docker",
-    //     "AWS",
-    //     "DuckDNS",
-    //     "Eslint",
-    //     "Husky",
-    //     "CI/CD",
-    //     "React Js",
-    //     "MongoDb",
-    //     "Node Js",
-    //     "Express Js",
-    //     "Redux",
-    //   ],
-    //   category: "web app",
-    //   github: "https://github.com/rishavchanda/Trackify",
-    //   webapp: "https://trackify-management.netlify.app/",
-    // },
+    {
+      id: 11,
+      title: "Image Search Appliaction- React",
+      date: "Nov 2023 - Dec 2023",
+      description:
+        "Create a React app using create-react-app or any other method you prefer. Build the UI of the app, which consists of an input section and a result section. The input section has an input field and a button for entering and submitting the search term. The result section displays the images returned by the API based on the search term. Get an access key and an API endpoint from Unsplash by registering as a developer and creating a new project on their website. Use React Hooks, such as useState and useEffect, to manage the state of the app and fetch data from the API. You also need to handle errors and loading states. Use the map function to iterate over the array of images returned by the API and render them in the result section. You can also add a download button or link for each image.",
+      image:
+        "https://raw.githubusercontent.com/Code-With-Yogi/ImageSearchApplication/main/ImageSearch.png",
+      tags: [
+        "React Js",
+        "Unsplassh API",
+        "JavaSCript",
+      ],
+      category: "web app",
+      github: "https://github.com/Code-With-Yogi/ImageSearchApplication",
+      webapp: "https://imagesearch-yogi.netlify.app",
+    },
+    {
+      id: 9,
+      title: "Currecncy Converter",
+      date: "Jun 2024 - Feb 2024",
+      description:
+        "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      image:
+        "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      tags: [
+        "Docker",
+        "AWS",
+        "DuckDNS",
+        "Eslint",
+        "Husky",
+        "CI/CD",
+        "React Js",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+        "Redux",
+      ],
+      category: "web app",
+      github: "https://github.com/Code-With-Yogi/currencyConvertor",
+      webapp: "https://currencyconverter-yogi.netlify.app/",
+    },
     // {
     //   id: 0,
     //   title: "Podstream",
