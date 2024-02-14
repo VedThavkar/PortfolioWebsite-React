@@ -24,8 +24,8 @@
      - name: Configure AWS Credentials
        uses: aws-actions/configure-aws-credentials@v1
        with:
-         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+         aws-access-key-id: ${{ secrets.AKIAUFHHFXUI6F2MNDUJ }}
+         aws-secret-access-key: ${{ secrets.vtnHTi5Xf7xQdLtwdg3srE0pt1Ouuxmv/4Mplpnp }}
          aws-region: ap-south-1
 
      - name: Deploy static site to S3 bucket
