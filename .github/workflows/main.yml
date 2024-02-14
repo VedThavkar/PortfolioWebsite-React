@@ -29,7 +29,7 @@
          aws-region: ap-south-1
 
      - name: Deploy static site to S3 bucket
-       run: aws s3 sync . s3://portfolio --delete
+       run: aws s3 sync . s3://portfolio-balti --delete
 
 
       # Uncomment this step to verify the use of 'deno fmt' on each commit.
